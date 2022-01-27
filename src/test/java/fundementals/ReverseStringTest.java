@@ -7,8 +7,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class ReverseStringTest {
     @Test
     void reverseString() {
-
         ReverseString reverseString = new ReverseString();
         assertEquals("drow" , reverseString.reverseString("word"));
+    }
+
+    @Test
+    void reverseStringBuilder() {
+        ReverseString reverseString = new ReverseString();
+        assertEquals("drow" , reverseString.reverseStringBuilder("word"));
     }
 }

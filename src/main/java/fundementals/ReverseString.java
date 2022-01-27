@@ -10,4 +10,8 @@ public class ReverseString {
 
         return stringBuilder.toString();
     }
+
+    public String reverseStringBuilder(String string) {
+        return new StringBuilder(string).reverse().toString();
+    }
 }
